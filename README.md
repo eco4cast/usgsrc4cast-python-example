@@ -1,4 +1,4 @@
-# neon4cast-example
+# usgsrc4cast-R-example
 
 [![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://github.com/codespaces/new?hide_repo_select=true&ref=main&repo=563603613)
 
@@ -47,3 +47,10 @@ A video describing how to use GitHub actions for automated forecast generation c
 You can run this repo as a "binder".  The [mybinder.org](https://mybinder.org) project will convert the repository into an interactive Rstudio sesson for you. To create a binder.  Use the link below but replace "eco4cast/neon4cast-example.git" with your repository. This is the exact R configuration that GitHub will be using to run your forecast.  The use of mybinder is primarily for testing. 
 
 https://mybinder.org/v2/gh/eco4cast/neon4cast-example.git/HEAD?urlpath=rstudio
+
+## Disclaimer
+Although this software program has been used by the U.S. Geological Survey (USGS), no warranty, expressed or implied, is made by the USGS or the U.S. Government as to the accuracy and functioning of the program and related program material nor shall the fact of distribution constitute any such warranty, and no responsibility is assumed by the USGS in connection therewith.
+This software is provided “AS IS.”
+
+## License Disclaimer 
+As a government employee, the contributions from Jacob Zwart to this repository are in the public domain. 
