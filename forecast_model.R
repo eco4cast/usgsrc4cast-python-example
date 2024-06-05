@@ -120,8 +120,8 @@ for(site in focal_sites){
     pivot_wider(names_from = variable, values_from = predicted_mean) %>% 
     left_join(select(lagged_chla, datetime, chla_lagged_1)) 
   
-  forecasted_dates <- lubridate::date(unique(cur_noaa_forecast$datetime))
-  ensembles <- unique(cur_noaa_forecast$ensemble)
+  forecasted_dates <- sort(lubridate::date(unique(cur_noaa_forecast$datetime)))
+  ensembles <- sort(unique(cur_noaa_forecast$ensemble))
   
   forecasted_chla <- c()
   
