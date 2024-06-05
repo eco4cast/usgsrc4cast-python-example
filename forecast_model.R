@@ -40,7 +40,7 @@ target <- readr::read_csv("https://sdsc.osn.xsede.org/bio230014-bucket01/challen
 # Step 2: Get meterological predictions as drivers
 forecast_date <- Sys.Date()
 #Need to use yesterday's NOAA forecast because today's is not available yet
-noaa_date <- Sys.Date() - days(1)  
+noaa_date <- Sys.Date() - days(2)  
 
 # this next line connects to the database, but doesn't pull the data yet. That happens below with 
 #   the dplyr::collect() function. Also make sure you're specifying the "usgsrc4cast" project_id in the 
