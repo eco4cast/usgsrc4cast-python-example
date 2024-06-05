@@ -44,7 +44,7 @@ A video describing how to use GitHub actions for automated forecast generation c
 
 You can run this repo as a "binder".  The [mybinder.org](https://mybinder.org) project will convert the repository into an interactive Rstudio session for you. To create a binder, use the link below but replace "eco4cast/usgsrc4cast-R-example.git" with your repository. This is the exact R configuration that GitHub will be using to run your forecast.  The use of mybinder is primarily for testing and not for operationally generating forecasts. 
 
-https://mybinder.org/v2/gh/eco4cast/usgsrc4cast-R-example.git/HEAD?urlpath=rstudio
+https://mybinder.org/v2/gh/eco4cast/usgsrc4cast-R-example.git/HEAD
 
 ## Disclaimer
 Although this software program has been used by the U.S. Geological Survey (USGS), no warranty, expressed or implied, is made by the USGS or the U.S. Government as to the accuracy and functioning of the program and related program material nor shall the fact of distribution constitute any such warranty, and no responsibility is assumed by the USGS in connection therewith.
