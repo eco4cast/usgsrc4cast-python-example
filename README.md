@@ -1,7 +1,5 @@
 # usgsrc4cast-R-example
 
-[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://github.com/codespaces/new?hide_repo_select=true&ref=main&repo=563603613)
-
 This repository is a template example for generating a forecast that is automated through GitHub actions.
 
 ## Applying this repository to a new forecast
