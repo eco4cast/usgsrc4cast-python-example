@@ -1,0 +1,23 @@
+on:
+  #schedule:
+  #  - cron: '0 20 * * *'
+  workflow_dispatch:
+
+name: generate-forecast
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    container: eco4cast/rocker-neon4cast:latest
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v3
+        with:
+          ref: main
+      - name: Install R packages
+        run: R -e 'source("install.R")' 
+      - name: Generate forecasts
+        shell: Rscript {0}
+        run: |
+          source("forecast_model.R")
+
