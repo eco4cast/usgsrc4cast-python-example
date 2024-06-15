@@ -22,4 +22,4 @@ jobs:
 
       - name: Generate forecasts
         run: |
-          python forecast_model.py
+          python3 forecast_model.py
