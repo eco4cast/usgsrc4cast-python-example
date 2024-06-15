@@ -1,4 +1,4 @@
-FROM eco4cast/rocker-r-binder-usgsrc4cast:latest
+FROM eco4cast/python-binder-usgsrc4cast:latest
 
 ## Declares build arguments
 ARG NB_USER
@@ -16,6 +16,3 @@ RUN echo "Checking for 'apt.txt'..." \
         && rm -rf /var/lib/apt/lists/* \
         ; fi
 USER ${NB_USER}
-
-## Run an install.R script, if it exists.
-RUN if [ -f install.R ]; then R --quiet -f install.R; fi
