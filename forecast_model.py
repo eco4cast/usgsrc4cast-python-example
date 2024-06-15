@@ -224,4 +224,4 @@ forecast_file = f"usgsrc4cast-{forecast_date}-{MODEL_ID}.csv"
 all_forecasts.to_csv(forecast_file, index=False)
 
 # Submit forecast 
-submit(forecast_file=forecast_file, project_id=PROJECT_ID, ask=True)
+submit(forecast_file=forecast_file, project_id=PROJECT_ID, ask=False)
