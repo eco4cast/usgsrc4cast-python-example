@@ -1,0 +1,6 @@
+pandas
+pyarrow
+statsmodels
+boto3
+requests
+
