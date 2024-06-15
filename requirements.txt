@@ -3,4 +3,5 @@ pyarrow
 statsmodels
 boto3
 requests
+matplotlib
 
